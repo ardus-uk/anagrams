@@ -5,6 +5,10 @@
 numberlist = [1,1,2,3,3,3,3,4,5,6,6,6,6,6,6,6,7]
 wordlist =['oh','to','be','in','England','now','that','Spring','is','here']
 
+print(numberlist)
+print(wordlist)
+print('--------------------------------------------')
+
 # a slice
 alist = wordlist[3:5]
 print (alist)
