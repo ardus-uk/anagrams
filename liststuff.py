@@ -63,3 +63,9 @@ flist = [x for x in wordlist if len(x) > 2]
 print(wordlist)
 print(flist)
 print('--------------------------------------------')
+
+# another filter, using list comprehension
+glist = [x for x in wordlist if 'a' in x]
+print(wordlist)
+print(glist)
+print('--------------------------------------------')
